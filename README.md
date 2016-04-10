@@ -6,16 +6,11 @@ Anyway it shouldn't be too hard to expand it to fit your needs, it's also publis
 
 ## What? No Bower? No gulp? No grunt or whatever the hell the people use out there?
 No. Npm is fine for all the tasks that a lot of other *additional* tools can do.
-JavaScript and CSS dependencies are both installed by npm. The first ones are handled with browserify and the second ones imported from node_modules in the styles.less file.
-*TypeScript* is set to compile in es6 (so that I could avoid the installation of typings) and you won't find here any testing packages (TDD, DDD etc.), I thought that you could choose one by your own if you need it.
+JavaScript and CSS dependencies are both installed by npm. The first ones are handled with browserify and the second ones imported from node_modules in the styles.less file. *TypeScript* is set to compile in es6 (so that I could avoid the installation of typings).
+<br />
+Here you won't find any testing packages (TDD, DDD etc.) as much as any other "necessary" tool, I thought that giving just the bare structure with this package, I'd make it more useful, so that you can compose it on your needs.
 
 ## Installation
-#### Fast way
-1. `cd` into the folder of the app you're developing.
-2. give there this command `npm install angular2-mean-starter`
-3. You're ready to go, give `npm run start` to test the application
-
-#### Manual way
 1. Clone this repo: `git clone https://github.com/giacomocerquone/angular2-mean-starter.git`
 2. `cd` into the folder of the repo you just cloned
 3. Install npm dependencies `npm install`
