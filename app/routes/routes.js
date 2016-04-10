@@ -1,3 +1,5 @@
+'use strict';
+
 var appModel = require('../models/app-model');
 
 module.exports = function(app) {
