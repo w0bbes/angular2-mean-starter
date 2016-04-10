@@ -1,5 +1,6 @@
 # angular2-mean-starter
 #### Angular 2 is still in beta, so there will be changes probably
+Make also sure to check the [*showcase of the app developed with this starter kit.*]() If you want to submit one, just do open a Pull Request headed to the showcase branch. 
 
 This is a very neat and simple starter kit for an angular2 MEAN SPA applications. Obviously this won't be perfect for every situation, but I found this really necessary to overcome the fear of the scary blank project and to discover some best practices on how to structure a project.
 Anyway it shouldn't be too hard to expand it to fit your needs, it's also published on npm to make the installation faster.

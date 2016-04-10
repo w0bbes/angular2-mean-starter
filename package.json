@@ -3,6 +3,7 @@
   "version": "0.5.0",
   "description": "A very neat and simple starter kit for an angular2 MEAN app.",
   "main": "server.js",
+  "repository": "https://github.com/giacomocerquone/angular2-mean-starter.git",
   "scripts": {
     "start": "concurrently \"nodemon server.js\" \"npm run watch:by\" \"npm run watch:less\" \"npm run watch:ts\"",
     "build": "concurrently \"npm run build:by\" \"npm run build:less\" \"npm run build:ts\"",
@@ -25,7 +26,7 @@
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.2",
     "systemjs": "0.19.24",
-    "zone.js": "0.5.15"
+    "zone.js": "0.6.10"
   },
   "devDependencies": {
     "browserify": "^13.0.0",
