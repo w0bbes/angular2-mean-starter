@@ -5,7 +5,7 @@ Make also sure to check the [**showcase of the app developed with this starter k
 This is a very neat and simple starter kit for an angular2 MEAN SPA applications. Obviously this won't be perfect for every situation, but I found this really necessary to overcome the fear of the scary blank project and to discover some best practices on how to structure a project.
 Anyway it shouldn't be too hard to expand it to fit your needs, it's also published on npm to make the installation faster.
 
-## What? No Bower? No gulp? No grunt or whatever the hell the people use out there?
+#### What? No Bower? No gulp? No grunt or whatever the hell the people use out there?
 No. Npm is fine for all the tasks that a lot of other **additional** tools can do.
 JavaScript and CSS dependencies are both installed by npm. The first ones are handled with browserify and the second ones imported from node_modules in the styles.less file. **TypeScript** is set to compile in es6 (so that I could avoid the installation of typings).
 <br />
