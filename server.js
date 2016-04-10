@@ -15,7 +15,7 @@ if (env == 'development') {
   // You can put morgan here for example
 }
 
-mongoose.connect(config.mongoURL);
+// mongoose.connect(config.mongoURL);
 
 app.use( morgan("dev") );
 app.use(bodyParser.json());

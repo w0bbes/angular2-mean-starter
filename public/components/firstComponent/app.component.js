@@ -21,7 +21,7 @@ System.register(['angular2/core', '../secondComponent/app.secondcomponent'], fun
                 app_secondcomponent_1 = app_secondcomponent_1_1;
             }],
         execute: function() {
-            firstComponent = class firstComponent {
+            let firstComponent = class firstComponent {
             };
             firstComponent = __decorate([
                 core_1.Component({
