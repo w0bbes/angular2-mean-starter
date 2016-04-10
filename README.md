@@ -1,9 +1,8 @@
 # angular2-mean-starter
+#### Angular 2 is still in beta, so there will be changes probably
 
 This is a very neat and simple starter kit for an angular2 MEAN SPA applications. Obviously this won't be perfect for every situation, but I found this really necessary to overcome the fear of the scary blank project and to discover some best practices on how to structure a project.
 Anyway it shouldn't be too hard to expand it to fit your needs, it's also published on npm to make the installation faster.
-
-## Angular 2 is still in beta, so there will be changes probably
 
 ## What? No Bower? No gulp? No grunt or whatever the hell the people use out there?
 No. Npm is fine for all the tasks that a lot of other *additional* tools can do.
@@ -17,7 +16,7 @@ JavaScript and CSS dependencies are both installed by npm. The first ones are ha
 3. You're ready to go, give `npm run start` to test the application
 
 #### Manual way
-1. Clone this repo: `git clone {repo-link}`
+1. Clone this repo: `git clone https://github.com/giacomocerquone/angular2-mean-starter.git`
 2. `cd` into the folder of the repo you just cloned
 3. Install npm dependencies `npm install`
 4. You're ready to go, give `npm run start` to test the application
@@ -25,12 +24,12 @@ JavaScript and CSS dependencies are both installed by npm. The first ones are ha
 ## Built-in scripts (npm as Build Tool)
 + `npm start` - Launch concurrently watchers and server.js through nodemon for live restart
 + `npm run build` - Build all the things that must be compiled
-+ `build:by`
-+ `watch:by`
-+ `build:less`
-+ `watch:less`
-+ `build:ts`
-+ `watch:ts`
++ `build:by` - Build browserify dependencies
++ `watch:by` - Watch for changes of browserify dependencies
++ `build:less` - Build less files
++ `watch:less` - Watch for changes of less files
++ `build:ts` - Build TypeScript files
++ `watch:ts` - Watch for changes on TypeScript files
 
 ## What's in here (the stack)
 + Node.js (you don't say)
@@ -44,7 +43,7 @@ JavaScript and CSS dependencies are both installed by npm. The first ones are ha
 #### Development modules
 + browserify and watchify to manage front end dependencies
 + nodemon for live server restart
-+ concurrently for handling of multiple npm scripts
++ concurrently for running and handling multiple npm scripts
 + less-watch-compiler to automatically watch changes to less files and compile them
 
 ## Contributions
