@@ -1,13 +1,13 @@
 # angular2-mean-starter
 #### Angular 2 is still in beta, so there will be changes probably
-Make also sure to check the [*showcase of the app developed with this starter kit.*]() If you want to submit one, just do open a Pull Request headed to the showcase branch. 
+Make also sure to check the [**showcase of the app developed with this starter kit.**](https://github.com/giacomocerquone/angular2-mean-starter/tree/showcase) If you want to submit one, just do open a Pull Request headed to the showcase branch.
 
 This is a very neat and simple starter kit for an angular2 MEAN SPA applications. Obviously this won't be perfect for every situation, but I found this really necessary to overcome the fear of the scary blank project and to discover some best practices on how to structure a project.
 Anyway it shouldn't be too hard to expand it to fit your needs, it's also published on npm to make the installation faster.
 
 ## What? No Bower? No gulp? No grunt or whatever the hell the people use out there?
-No. Npm is fine for all the tasks that a lot of other *additional* tools can do.
-JavaScript and CSS dependencies are both installed by npm. The first ones are handled with browserify and the second ones imported from node_modules in the styles.less file. *TypeScript* is set to compile in es6 (so that I could avoid the installation of typings).
+No. Npm is fine for all the tasks that a lot of other **additional** tools can do.
+JavaScript and CSS dependencies are both installed by npm. The first ones are handled with browserify and the second ones imported from node_modules in the styles.less file. **TypeScript** is set to compile in es6 (so that I could avoid the installation of typings).
 <br />
 Here you won't find any testing packages (TDD, DDD etc.) as much as any other "necessary" tool, I thought that giving just the bare structure with this package, I'd make it more useful, so that you can compose it on your needs.
 
