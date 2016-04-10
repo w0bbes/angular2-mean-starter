@@ -14,13 +14,13 @@ JavaScript and CSS dependencies are both installed by npm. The first ones are ha
 #### Fast way
 1. `cd` into the folder of the app you're developing.
 2. give there this command `npm install angular2-mean-starter`
-3. You're ready to go
+3. You're ready to go, give `npm run start` to test the application
 
 #### Manual way
 1. Clone this repo: `git clone {repo-link}`
 2. `cd` into the folder of the repo you just cloned
 3. Install npm dependencies `npm install`
-4. You're ready to go
+4. You're ready to go, give `npm run start` to test the application
 
 ## Built-in scripts (npm as Build Tool)
 + `npm start` - Launch concurrently watchers and server.js through nodemon for live restart
