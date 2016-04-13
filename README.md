@@ -37,10 +37,12 @@ Here you won't find any testing packages (TDD, DDD etc.) as much as any other "n
 + Bootstrap
 
 #### Development modules
-+ browserify and watchify to manage front end dependencies
-+ nodemon for live server restart
-+ concurrently for running and handling multiple npm scripts
-+ less-watch-compiler to automatically watch changes to less files and compile them
++ Browserify and watchify to manage front end dependencies
++ Nodemon for live server restart
++ Concurrently for running and handling multiple npm scripts
++ Less-watch-compiler to automatically watch changes to less files and compile them
++ Morgan as logging library
++ Browserify to live reload the browser page
 
 ## Contributions
 I'm really not a genius, probably I'm not even a good programmer yet, but I'm strongly convinced of "learning while doing" so I truly hope for some contributions, advices or anything else you can bring in to improve this starter and to make me a better programmer.

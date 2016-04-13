@@ -5,14 +5,15 @@
   "main": "server.js",
   "repository": "https://github.com/giacomocerquone/angular2-mean-starter.git",
   "scripts": {
-    "start": "concurrently \"nodemon server.js\" \"npm run watch:by\" \"npm run watch:less\" \"npm run watch:ts\"",
+    "start": "concurrently \"nodemon server.js\" \"npm run watch:by\" \"npm run watch:less\" \"npm run watch:ts\" \"npm run browsersync\"",
     "build": "concurrently \"npm run build:by\" \"npm run build:less\" \"npm run build:ts\"",
     "build:by": "browserify public/assets/js/browserify_libs.js -o public/assets/js/libs.js",
     "watch:by": "watchify public/assets/js/browserify_libs.js -o public/assets/js/libs.js",
     "build:less": "lessc --clean-css public/assets/less/styles.less public/assets/css/styles.css",
     "watch:less": "less-watch-compiler public/assets/less/ public/assets/css/ styles.less",
     "build:ts": "tsc",
-    "watch:ts": "tsc -w"
+    "watch:ts": "tsc -w",
+    "browsersync": "browser-sync start --proxy http://localhost:8080 --files 'public/**'"
   },
   "author": "Giacomo Cerquone <cerquone96@hotmail.it> (http://giacomocerquone.com)",
   "license": "MIT",
