@@ -13,7 +13,7 @@
     "watch:less": "less-watch-compiler public/assets/less/ public/assets/css/ styles.less",
     "build:ts": "tsc",
     "watch:ts": "tsc -w",
-    "browsersync": "browser-sync start --proxy http://localhost:8080 --files 'public/**'"
+    "browsersync": "browser-sync start --files \"public/**/*.*\" --proxy 127.127.0.1:8080 --reload-delay=300 --reload-debounce=500"
   },
   "author": "Giacomo Cerquone <cerquone96@hotmail.it> (http://giacomocerquone.com)",
   "license": "MIT",
